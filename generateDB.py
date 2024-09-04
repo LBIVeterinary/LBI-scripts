@@ -254,10 +254,10 @@ def run_rf(inp, out):
 		shap_values = explainer.shap_values(df, check_additivity=False)
 		raw_ite_values = {column: 0 for column in df.columns}
 		for ind_gene in ind_importances:
-			if shap_values[0, ind_gene, 1] > 0:
+			if shap_values[:, ind_gene, 1].mean() > 0:
 				iterations[df.columns[ind_gene]] = iterations[df.columns[ind_gene]] + 1
 				raw_ite_values[df.columns[ind_gene]] = shap_values[0, ind_gene, 1]
-			elif shap_values[0, ind_gene, 0] > 1:
+			elif shap_values[:, ind_gene, 1].mean() < 0:
 				iterations[df.columns[ind_gene]] = iterations[df.columns[ind_gene]] - 1
 				raw_ite_values[df.columns[ind_gene]] = shap_values[0, ind_gene, 1]
 		coefficients = list(raw_ite_values.values())
