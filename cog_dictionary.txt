@@ -1,0 +1,27 @@
+Abbreviation	COG Categories	Function
+E	Amino acid transport and metabolism	Metabolism
+G	Carbohydrate transport and metabolism	Metabolism
+D	Cell cycle control, cell division, chromosome partitioning	Cellular processes and sinaling
+N	Cell motility	Cellular processes and sinaling
+M	Cell wall/membrane/envelope biogenesis	Cellular processes and sinaling
+B	Chromatin structure and dynamics	Cellular component
+H	Coenzyme transport and metabolism	Metabolism
+Z	Cytoskeleton	Cellular component
+V	Defense mechanisms	Cellular processes and sinaling
+C	Energy production and conversion	Metabolism
+W	Extracellular structures	Cellular component
+S	Function unknown	Poorly characterized
+R	General function prediction only	Poorly characterized
+P	Inorganic ion transport and metabolism	Metabolism
+U	Intracellular trafficking, secretion, and vesicular transport	Cellular processes and sinaling
+I	Lipid transport and metabolism	Metabolism
+X	Mobilome: phages, transposons	Cellular component
+Y	Nuclear structure	Cellular component
+F	Nucleotide transport and metabolism	Metabolism
+O	Posttranslational modification, protein turnover, chaperones	Cellular processes and sinaling
+L	Replication, recombination and repair	Information storage and processing
+A	RNA processing and modification	Cellular processes and sinaling
+Q	Secondary metabolites biosynthesis, transport and catabolism	Metabolism
+T	Signal transduction mechanisms	Cellular processes and sinaling
+K	Transcription	Information storage and processing
+J	Translation, ribosomal structure, and biogenesis	Information storage and processing
